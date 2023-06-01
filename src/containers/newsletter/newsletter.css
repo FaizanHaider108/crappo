@@ -1,0 +1,101 @@
+.News_letter{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    width: 100%;
+    height: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+ {
+    background-image: url("../../assets/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 216px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #fff;
+    border-bottom: 1PX SOLID #ffffff;
+}
+
+.container label{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 25px;
+}
+
+.container button{
+    background-color: #fff;
+    color: #3671E9;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 990px){
+    .container
+ {
+    background-image: url("../../assets/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ .container input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 70%;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #fff;
+    border-bottom: 1PX SOLID #ffffff;
+}
+}
+
+@media screen and (max-width: 490px){
+    .container
+ {
+    background-image: url("../../assets/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ .container input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 70%;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #fff;
+    border-bottom: 1PX SOLID #ffffff;
+}
+}

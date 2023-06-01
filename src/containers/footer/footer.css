@@ -1,0 +1,98 @@
+.footer{
+    font-family: var(--font-family);
+}
+
+.footer_flex-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.quick_links h2{
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.quick_links p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    
+    color: #E0E0E0;
+    mix-blend-mode: normal;
+}
+
+.payment_gateways h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.payment_gateways-imgs{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.copyright_text{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.copy_content-text h3{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+
+.social_links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_links a{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Tablet size */
+@media screen and (max-width: 990px){
+    .footer_flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    }
+}
+
+/* mobile size */
+@media screen and (max-width: 490px){
+    .footer_flex-box{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+    gap: 40px;
+    }
+
+    .copyright_text{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

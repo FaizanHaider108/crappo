@@ -1,0 +1,220 @@
+.crypto_contect{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypto_contect h1{
+    color: #fff;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.crypto_contect p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #E0E0E0;
+}
+
+.crypto_input{
+    margin: 6rem;
+    backdrop-filter: blur(2px);
+    background: #FBFCFE;
+    border-radius: 16px 16px 16px 16px;
+    align-items: center;
+    
+}
+
+.crypto_input form{
+    display: flex;
+    height: 155px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.crypto_input form input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+    
+    mix-blend-mode: normal;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E0E0E0;
+    background: none;
+}
+
+.crypto_input select{
+    padding: 20px 30px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+    background: none;
+    outline: none;
+    mix-blend-mode: normal;
+}
+
+.btn-calculate button{
+    padding: 10px 20px;
+    color: #fff;
+    width: 147px;
+    height: 59px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-calculate button:hover{
+    padding: 10px 25px;
+    color: #3671E9;
+    width: 147px;
+    height: 59px;
+    background: #fff;
+    border-radius: 32px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.revenue_display{
+    font-family: var(--font-family);
+    padding: 2rem 6rem;
+}
+
+.revenue_display-content h3{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+}
+
+.revenue_display-content h1{
+    font-style: normal;
+    font-weight:900;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0D0D2B;
+}
+
+.revenue_display-content span{
+    font-style: normal;
+    font-weight:900;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #3671E9;
+}
+
+.revenue_display-content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+
+}
+
+@media screen and (max-width: 990px) {
+    .crypto_contect{
+    text-align: start;
+    }
+
+   .crypto_input form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 155px;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+    .revenue_display{
+        font-family: var(--font-family);
+        padding: 1rem 2rem;
+    }
+
+     .crypto_input{
+    margin: 1rem;
+    backdrop-filter: blur(2px);
+    background: #FBFCFE;
+    border-radius: 16px 16px 16px 16px;
+    align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 490px) {
+    .crypto_contect{
+    text-align: start;
+    }
+
+    .crypto_input{
+    margin: 1rem;
+   }
+
+   .crypto_input form{
+    display: flex;
+    height: 155px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+    .crypto_input form input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 14px;
+    line-height: 150%;
+    color: #0D0D2B;
+    mix-blend-mode: normal;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E0E0E0;
+    background: none;
+    }
+
+    .revenue_display-content h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0D0D2B;
+    }
+
+    .revenue_display-content h3 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+}
+
+    
+
+}

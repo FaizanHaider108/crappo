@@ -1,0 +1,206 @@
+.backArrow_img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.backArrow_img img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.register {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../assets/bg-bitcoin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.register_form-img{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.register_form-img img{
+    padding-bottom: 30px;
+    width: 130px;
+}
+
+.register_form-img h1{
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+.register_form-img span{
+    font-family: var(--font-family);
+    color: #828282;
+}
+
+.register_form-content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 40px;
+}
+
+.register_form-content label{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.register_form-content input{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #828282;
+}
+
+.remember_me{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember_me label{
+    font-size: 15px;
+}
+
+.remember_me label input{
+   margin: 10px ;
+  border: 1px solid #828282;
+}
+
+.remember_me a{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #fff;
+}
+
+.register_form-content button{
+    margin-top: 30px;
+    background: none;
+    background-color:  #061e4e;
+    color: #fff;
+     padding: 20px 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.have_account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.have_account h3{
+    font-family: var(--font-family);
+    color: #828282;
+    font-size: 15px;
+}
+
+.have_account a{
+    font-family: var(--font-family);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.register_form-content button:hover{
+    margin-top: 30px;
+    background: none;
+    background-color:  #fff;
+    color: #3671E9;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn{
+    margin-top: 10px;
+    display: flex;
+    background-color: none;
+    border:1px solid  #3671E9;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.google-btn:hover{
+    margin-top: 10px;
+    display: flex;
+    background-color: none;
+    border: none;
+    border: 1px solid #3671E9;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.google-btn:hover h3{
+    color: #3671E9;
+}
+
+.google-btn img{
+    width: 20px;
+}
+
+.google-btn h3{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 15px;
+} 
+
+
+/* mobile responsive */
+@media screen and (max-width:490px) {
+    .register {
+    margin-top: 100px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../assets/bg-bitcoin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+  .remember_me {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+  .have_account {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+}
